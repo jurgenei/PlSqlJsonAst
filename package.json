@@ -1,0 +1,28 @@
+{
+  "name": "p1",
+  "version": "1.0.0",
+  "description": "Test Gulp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "type": "module",
+  "author": "Jurgen Hildebrand",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/register": "^7.13.16",
+    "antlr4-tool": "^1.1.1",
+    "chai": "^4.3.4",
+    "gulp": "^4.0.2",
+    "gulp-jsvalidate": "^5.0.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.14.0",
+    "antlr4": "4.7.2",
+    "child-process-data": "^0.7.0",
+    "gulp-antlr4": "^0.4.6",
+    "gulp-clean": "^0.4.0"
+  }
+}
